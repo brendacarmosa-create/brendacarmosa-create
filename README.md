@@ -7,14 +7,13 @@
 Técnica em Informática, estudante de **Ciências Econômicas** e **Inteligência de Mercado e Análise de Dados** · CPA-20 (ANBIMA) · São Luís, MA<br>
 Atuo com análise de dados, conciliação financeira e automação de processos, utilizando SQL, Snowflake, VBA, VBS e Inteligência Artificial como apoio ao desenvolvimento de soluções. Uno conhecimentos técnicos e de negócio para identificar oportunidades de melhoria, estruturar regras e validar resultados.
 
-
 <a href="https://www.linkedin.com/in/brenda-carmosa-30208b361/"><img src="https://img.shields.io/badge/LinkedIn-Conectar-C084FC?style=for-the-badge&logo=linkedin&logoColor=0E0716&labelColor=E9D5FF"/></a>
 <a href="https://brendacarmosa-create.github.io"><img src="https://img.shields.io/badge/Portf%C3%B3lio-Acessar-C084FC?style=for-the-badge&logo=githubpages&logoColor=0E0716&labelColor=E9D5FF"/></a>
 <a href="mailto:brendacarmosa@gmail.com"><img src="https://img.shields.io/badge/E--mail-Contato-C084FC?style=for-the-badge&logo=gmail&logoColor=0E0716&labelColor=E9D5FF"/></a>
 
 <br><br>
 
-<img src="resultados.svg" width="100%" alt="−94% de tempo, 44h para 2,6h por mês, 7 distribuidoras"/>
+<img src="resultados.svg" width="100%" alt="−94% de tempo, 44h para 2,6h por mês, 3 soluções em uso"/>
 
 </div>
 
