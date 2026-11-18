@@ -4,8 +4,9 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1200&color=C084FC&center=true&vCenter=true&width=700&lines=Ol%C3%A1%2C+eu+sou+a+Brenda!;Automa%C3%A7%C3%A3o+de+processos+financeiros;Resultado+medido%3A+44h+%E2%86%92+2%2C6h+por+m%C3%AAs;Explorando+IA+e+agentes+inteligentes" />
 
-Estudante de **Ciências Econômicas** e de **Inteligência de Mercado e Análise de Dados** · CPA-20 · São Luís, MA<br>
-Automatizo rotinas financeiras com SQL, Snowflake, VBA, VBS e apoio de IA: a IA acelera o código, e eu cuido da regra de negócio e da validação.
+Técnica em Informática, estudante de **Ciências Econômicas** e **Inteligência de Mercado e Análise de Dados** · CPA-20 (ANBIMA) · São Luís, MA<br>
+Atuo com análise de dados, conciliação financeira e automação de processos, utilizando SQL, Snowflake, VBA, VBS e Inteligência Artificial como apoio ao desenvolvimento de soluções. Uno conhecimentos técnicos e de negócio para identificar oportunidades de melhoria, estruturar regras e validar resultados.
+
 
 <a href="https://www.linkedin.com/in/brenda-carmosa-30208b361/"><img src="https://img.shields.io/badge/LinkedIn-Conectar-C084FC?style=for-the-badge&logo=linkedin&logoColor=0E0716&labelColor=E9D5FF"/></a>
 <a href="https://brendacarmosa-create.github.io"><img src="https://img.shields.io/badge/Portf%C3%B3lio-Acessar-C084FC?style=for-the-badge&logo=githubpages&logoColor=0E0716&labelColor=E9D5FF"/></a>
