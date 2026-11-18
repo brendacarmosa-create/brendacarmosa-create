@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" xmlns:c2pa="http://c2pa.org/manifest">
+<style>
+@keyframes tick{from{transform:translateX(0)}to{transform:translateX(-594px)}}
+.tick{animation:tick 18s linear infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
+.blink{animation:blink 1.6s ease-in-out infinite}
+@keyframes draw{0%{stroke-dashoffset:520}55%,100%{stroke-dashoffset:0}}
+.line{stroke-dasharray:520;animation:draw 6s ease-out infinite}
+@keyframes area{0%,30%{opacity:0}60%,100%{opacity:1}}
+.area{animation:area 6s ease-out infinite}
+@keyframes grow{0%{transform:scaleY(.15)}50%,100%{transform:scaleY(1)}}
+.c{transform-box:fill-box;transform-origin:center bottom;animation:grow 4s ease-in-out infinite alternate}
+@keyframes rise{0%{transform:translateY(0);opacity:0}15%{opacity:.55}100%{transform:translateY(-140px);opacity:0}}
+.sym{animation:rise 7s linear infinite}
+@keyframes pulse{0%,100%{r:5}50%{r:8}}
+.dot{animation:blink 2s ease-in-out infinite}
+@keyframes spin{from{stroke-dashoffset:151}to{stroke-dashoffset:9}}
+.donut{stroke-dasharray:151;animation:spin 3s ease-out infinite alternate}
+@keyframes glow{0%,100%{opacity:.35}50%{opacity:.8}}
+.glow{animation:glow 4s ease-in-out infinite}
+</style>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0E0716"/><stop offset="0.6" stop-color="#1A0F26"/><stop offset="1" stop-color="#2A1240"/></linearGradient><radialGradient id="halo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#C084FC" stop-opacity="0.35"/><stop offset="1" stop-color="#C084FC" stop-opacity="0"/></radialGradient><clipPath id="cl"><rect width="1200" height="320" rx="18"/></clipPath></defs>
+<g clip-path="url(#cl)">
+<rect width="1200" height="320" fill="url(#bg)"/>
+<line x1="0" y1="40" x2="1200" y2="40" stroke="#C084FC" stroke-opacity="0.05"/>
+<line x1="0" y1="80" x2="1200" y2="80" stroke="#C084FC" stroke-opacity="0.05"/>
+<line x1="0" y1="120" x2="1200" y2="120" stroke="#C084FC" stroke-opacity="0.05"/>
+<line x1="0" y1="160" x2="1200" y2="160" stroke="#C084FC" stroke-opacity="0.05"/>
+<line x1="0" y1="200" x2="1200" y2="200" stroke="#C084FC" stroke-opacity="0.05"/>
+<line x1="0" y1="240" x2="1200" y2="240" stroke="#C084FC" stroke-opacity="0.05"/>
+<line x1="0" y1="280" x2="1200" y2="280" stroke="#C084FC" stroke-opacity="0.05"/>
+<line x1="60" y1="0" x2="60" y2="320" stroke="#C084FC" stroke-opacity="0.035"/>
+<line x1="120" y1="0" x2="120" y2="320" stroke="#C084FC" stroke-opacity="0.035"/>
+<line x1="180" y1="0" x2="180" y2="320" stroke="#C084FC" stroke-opacity="0.035"/>
+<line x1="240" y1="0" x2="240" y2="320" stroke="#C084FC" stroke-opacity="0.035"/>
+<line x1="300" y1="0" x2="300" y2="320" stroke="#C084FC" stroke-opacity="0.035"/>
+<line x1="360" y1="0" x2="360" y2="320" stroke="#C084FC" stroke-opacity="0.035"/>
+<line x1="420" y1="0" x2="420" y2="320" stroke="#C084FC" stroke-opacity="0.035"/>
+<line x1="480" y1="0" x2="480" y2="320" stroke="#C084FC" stroke-opacity="0.035"/>
+<line x1="540" y1="0" x2="540" y2="320" stroke="#C084FC" stroke-opacity="0.035"/>
+<line x1="600" y1="0" x2="600" y2="320" stroke="#C084FC" stroke-opacity="0.035"/>
+<line x1="660" y1="0" x2="660" y2="320" stroke="#C084FC" stroke-opacity="0.035"/>
+<line x1="720" y1="0" x2="720" y2="320" stroke="#C084FC" stroke-opacity="0.035"/>
+<line x1="780" y1="0" x2="780" y2="320" stroke="#C084FC" stroke-opacity="0.035"/>
+<line x1="840" y1="0" x2="840" y2="320" stroke="#C084FC" stroke-opacity="0.035"/>
+<line x1="900" y1="0" x2="900" y2="320" stroke="#C084FC" stroke-opacity="0.035"/>
+<line x1="960" y1="0" x2="960" y2="320" stroke="#C084FC" stroke-opacity="0.035"/>
+<line x1="1020" y1="0" x2="1020" y2="320" stroke="#C084FC" stroke-opacity="0.035"/>
+<line x1="1080" y1="0" x2="1080" y2="320" stroke="#C084FC" stroke-opacity="0.035"/>
+<line x1="1140" y1="0" x2="1140" y2="320" stroke="#C084FC" stroke-opacity="0.035"/>
+<ellipse class="glow" cx="600" cy="175" rx="360" ry="120" fill="url(#halo)"/>
+<rect x="0" y="0" width="1200" height="46" fill="#0E0716" fill-opacity="0.7"/><line x1="0" y1="46" x2="1200" y2="46" stroke="#3A2350"/>
+<g class="tick">
+<text x="20" y="29" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="14" fill="#CBB8E0">SELIC <tspan class="blink" style="animation-delay:0.0s" fill="#C084FC">▲</tspan></text>
+<text x="125" y="29" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="14" fill="#CBB8E0">IPCA <tspan class="blink" style="animation-delay:0.3s" fill="#F0B54A">●</tspan></text>
+<text x="221" y="29" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="14" fill="#CBB8E0">PIB <tspan class="blink" style="animation-delay:0.6s" fill="#C084FC">▲</tspan></text>
+<text x="308" y="29" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="14" fill="#CBB8E0">USD/BRL <tspan class="blink" style="animation-delay:0.9s" fill="#FF8FA3">▼</tspan></text>
+<text x="431" y="29" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="14" fill="#CBB8E0">IBOV <tspan class="blink" style="animation-delay:1.2s" fill="#C084FC">▲</tspan></text>
+<text x="527" y="29" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="14" fill="#CBB8E0">CDI <tspan class="blink" style="animation-delay:1.5s" fill="#F0B54A">●</tspan></text>
+<text x="614" y="29" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="14" fill="#CBB8E0">SELIC <tspan class="blink" style="animation-delay:0.0s" fill="#C084FC">▲</tspan></text>
+<text x="719" y="29" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="14" fill="#CBB8E0">IPCA <tspan class="blink" style="animation-delay:0.3s" fill="#F0B54A">●</tspan></text>
+<text x="815" y="29" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="14" fill="#CBB8E0">PIB <tspan class="blink" style="animation-delay:0.6s" fill="#C084FC">▲</tspan></text>
+<text x="902" y="29" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="14" fill="#CBB8E0">USD/BRL <tspan class="blink" style="animation-delay:0.9s" fill="#FF8FA3">▼</tspan></text>
+<text x="1025" y="29" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="14" fill="#CBB8E0">IBOV <tspan class="blink" style="animation-delay:1.2s" fill="#C084FC">▲</tspan></text>
+<text x="1121" y="29" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="14" fill="#CBB8E0">CDI <tspan class="blink" style="animation-delay:1.5s" fill="#F0B54A">●</tspan></text>
+<text x="1208" y="29" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="14" fill="#CBB8E0">SELIC <tspan class="blink" style="animation-delay:0.0s" fill="#C084FC">▲</tspan></text>
+<text x="1313" y="29" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="14" fill="#CBB8E0">IPCA <tspan class="blink" style="animation-delay:0.3s" fill="#F0B54A">●</tspan></text>
+<text x="1409" y="29" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="14" fill="#CBB8E0">PIB <tspan class="blink" style="animation-delay:0.6s" fill="#C084FC">▲</tspan></text>
+<text x="1496" y="29" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="14" fill="#CBB8E0">USD/BRL <tspan class="blink" style="animation-delay:0.9s" fill="#FF8FA3">▼</tspan></text>
+<text x="1619" y="29" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="14" fill="#CBB8E0">IBOV <tspan class="blink" style="animation-delay:1.2s" fill="#C084FC">▲</tspan></text>
+<text x="1715" y="29" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="14" fill="#CBB8E0">CDI <tspan class="blink" style="animation-delay:1.5s" fill="#F0B54A">●</tspan></text>
+</g>
+<g class="c" style="animation-delay:0.00s"><line x1="48" y1="220" x2="48" y2="290" stroke="#C084FC" stroke-opacity="0.7" stroke-width="2"/><rect x="40" y="230" width="16" height="50" rx="3" fill="#C084FC" fill-opacity="0.55"/></g>
+<g class="c" style="animation-delay:0.25s"><line x1="78" y1="225" x2="78" y2="265" stroke="#FF8FA3" stroke-opacity="0.7" stroke-width="2"/><rect x="70" y="235" width="16" height="20" rx="3" fill="#FF8FA3" fill-opacity="0.55"/></g>
+<g class="c" style="animation-delay:0.50s"><line x1="108" y1="200" x2="108" y2="260" stroke="#C084FC" stroke-opacity="0.7" stroke-width="2"/><rect x="100" y="210" width="16" height="45" rx="3" fill="#C084FC" fill-opacity="0.55"/></g>
+<g class="c" style="animation-delay:0.75s"><line x1="138" y1="202" x2="138" y2="238" stroke="#FF8FA3" stroke-opacity="0.7" stroke-width="2"/><rect x="130" y="210" width="16" height="20" rx="3" fill="#FF8FA3" fill-opacity="0.55"/></g>
+<g class="c" style="animation-delay:1.00s"><line x1="168" y1="180" x2="168" y2="235" stroke="#C084FC" stroke-opacity="0.7" stroke-width="2"/><rect x="160" y="190" width="16" height="40" rx="3" fill="#C084FC" fill-opacity="0.55"/></g>
+<g class="c" style="animation-delay:1.25s"><line x1="198" y1="182" x2="198" y2="218" stroke="#FF8FA3" stroke-opacity="0.7" stroke-width="2"/><rect x="190" y="190" width="16" height="20" rx="3" fill="#FF8FA3" fill-opacity="0.55"/></g>
+<g class="c" style="animation-delay:1.50s"><line x1="228" y1="160" x2="228" y2="215" stroke="#C084FC" stroke-opacity="0.7" stroke-width="2"/><rect x="220" y="170" width="16" height="40" rx="3" fill="#C084FC" fill-opacity="0.55"/></g>
+<g class="c" style="animation-delay:1.75s"><line x1="258" y1="140" x2="258" y2="188" stroke="#C084FC" stroke-opacity="0.7" stroke-width="2"/><rect x="250" y="150" width="16" height="30" rx="3" fill="#C084FC" fill-opacity="0.55"/></g>
+<g class="c" style="animation-delay:2.00s"><line x1="288" y1="142" x2="288" y2="175" stroke="#FF8FA3" stroke-opacity="0.7" stroke-width="2"/><rect x="280" y="150" width="16" height="18" rx="3" fill="#FF8FA3" fill-opacity="0.55"/></g>
+<path class="area" d="M860,300 L860,260 L905,230 L950,242 L995,190 L1040,205 L1085,150 L1130,165 L1170,110 L1170,300 Z" fill="#C084FC" fill-opacity="0.10"/>
+<polyline class="line" points="860,260 905,230 950,242 995,190 1040,205 1085,150 1130,165 1170,110" fill="none" stroke="#C084FC" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle class="dot" style="animation-delay:0.0s" cx="860" cy="260" r="5" fill="#E9D5FF"/>
+<circle class="dot" style="animation-delay:0.2s" cx="905" cy="230" r="5" fill="#E9D5FF"/>
+<circle class="dot" style="animation-delay:0.4s" cx="950" cy="242" r="5" fill="#E9D5FF"/>
+<circle class="dot" style="animation-delay:0.6s" cx="995" cy="190" r="5" fill="#E9D5FF"/>
+<circle class="dot" style="animation-delay:0.8s" cx="1040" cy="205" r="5" fill="#E9D5FF"/>
+<circle class="dot" style="animation-delay:1.0s" cx="1085" cy="150" r="5" fill="#E9D5FF"/>
+<circle class="dot" style="animation-delay:1.2s" cx="1130" cy="165" r="5" fill="#E9D5FF"/>
+<circle class="dot" style="animation-delay:1.4s" cx="1170" cy="110" r="5" fill="#E9D5FF"/>
+<circle cx="1120" cy="80" r="24" fill="none" stroke="#3A2350" stroke-width="9"/><circle class="donut" cx="1120" cy="80" r="24" fill="none" stroke="#C084FC" stroke-width="9" transform="rotate(-90 1120 80)"/>
+<text x="1120" y="85" text-anchor="middle" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="12" fill="#E9D5FF">94%</text>
+<text class="sym" style="animation-delay:0.0s" x="71" y="315" font-family="Archivo, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#C084FC" opacity="0">R$</text>
+<text class="sym" style="animation-delay:0.6s" x="278" y="319" font-family="Archivo, Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#C084FC" opacity="0">%</text>
+<text class="sym" style="animation-delay:1.2s" x="71" y="292" font-family="Archivo, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#C084FC" opacity="0">$</text>
+<text class="sym" style="animation-delay:1.8s" x="427" y="271" font-family="Archivo, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#C084FC" opacity="0">€</text>
+<text class="sym" style="animation-delay:2.4s" x="83" y="300" font-family="Archivo, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#C084FC" opacity="0">↗</text>
+<text class="sym" style="animation-delay:3.0s" x="246" y="271" font-family="Archivo, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#C084FC" opacity="0">R$</text>
+<text class="sym" style="animation-delay:3.6s" x="68" y="279" font-family="Archivo, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#C084FC" opacity="0">%</text>
+<text class="sym" style="animation-delay:4.2s" x="376" y="294" font-family="Archivo, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#C084FC" opacity="0">¥</text>
+<text class="sym" style="animation-delay:4.8s" x="164" y="262" font-family="Archivo, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#C084FC" opacity="0">$</text>
+<text class="sym" style="animation-delay:5.4s" x="42" y="288" font-family="Archivo, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#C084FC" opacity="0">%</text>
+<text class="sym" style="animation-delay:6.0s" x="218" y="299" font-family="Archivo, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#C084FC" opacity="0">R$</text>
+<text class="sym" style="animation-delay:6.6s" x="410" y="299" font-family="Archivo, Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#C084FC" opacity="0">↘</text>
+<text x="870" y="104" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="13" fill="#C084FC" fill-opacity="0.45">SELECT * FROM conciliacao;</text>
+<text x="600" y="175" text-anchor="middle" font-family="Archivo, Segoe UI, Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="#F8F0FF">Brenda Carmosa</text>
+<text x="600" y="218" text-anchor="middle" font-family="Archivo, Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#E9D5FF">Economia · Automação · Finanças · Dados</text>
+<circle class="blink" cx="527" cy="253" r="5" fill="#C084FC"/><text x="540" y="258" font-family="IBM Plex Mono, Consolas, Menlo, monospace" font-size="14" fill="#C084FC">mercado em movimento</text>
+</g>
+<rect x="1" y="1" width="1198" height="318" rx="18" fill="none" stroke="#3A2350" stroke-width="2"/><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpiMGVmNDQxNC02NmFiLTQwYzItOWQ1MC1hOTIzZDA1YmYzZWQAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaE2aBAovpWdjWBY9FwouXBMAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDoxMWVmNDU4Mi04MzI4LTRkZTUtYWZiMy0xODFmNGNkYTNmNzhscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoEuJxlND3AjRhJWYeV74ErwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggYw2dysSzWinU54Mu9vOQAXQ10KvuitmwhBZpK0oa5B2kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaDp94gUKtsI7EPAI5DhleSYAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYID8iG43rmFB/DjC3bhkZi+LygDi6PbcHRyAOvpq4dpccZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GThLZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmIwZWY0NDE0LTY2YWItNDBjMi05ZDUwLWE5MjNkMDViZjNlZC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjI5OTQ4NjllLTY0YzQtNGY4MC1iNWM2LTU2ZTc3ZDI1NjBkZnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBjDZ3KxLNaKdTngy7285ABdDXQq+6K2bCEFmkrShrkHaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggGIVdLHnA+WLmE1KDgfcMG6ffKfj3Z4A+Zt0FljlaUVSiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggef+S2yHlppTNCmjT3RWN1gv4FRYdfe9W/vGoJbSEHu50Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQK7/UDcQInjwGB2a71neREvUpczvGMnDfuyCyf5LKtklENfGv04MxB3mkQK5Pyuf7Qe4/2LDnbJvdXpZ+vofq8k=</c2pa:manifest></metadata></svg>
