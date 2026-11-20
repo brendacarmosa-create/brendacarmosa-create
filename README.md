@@ -22,11 +22,11 @@ Trabalho com conciliação financeira, análise de dados e automação de proces
 ## ⚡ Projetos
 
 <p align="center">
-  <a href="https://brendacarmosa-create.github.io"><img src="card-robo.svg" width="49%" alt="Robô de reclassificação no SAP"/></a>
-  <a href="https://brendacarmosa-create.github.io"><img src="card-concilia.svg" width="49%" alt="Portal Concilia+"/></a>
+  <a href="https://brendacarmosa-create.github.io"><img src="card-robo-v2.svg" width="49%" alt="Robô de reclassificação no SAP"/></a>
+  <a href="https://brendacarmosa-create.github.io"><img src="card-concilia-v2.svg" width="49%" alt="Portal Concilia+"/></a>
 </p>
 <p align="center">
-  <a href="https://brendacarmosa-create.github.io"><img src="card-macro.svg" width="49%" alt="Macro VBA: BB e Cartão"/></a>
+  <a href="https://brendacarmosa-create.github.io"><img src="card-macro-v2.svg" width="49%" alt="Macro VBA: BB e Cartão"/></a>
   <a href="https://github.com/brendacarmosa-create/agenteIA_Essenza"><img src="card-essenza.svg" width="49%" alt="Assistente Essenza"/></a>
 </p>
 <p align="center">
