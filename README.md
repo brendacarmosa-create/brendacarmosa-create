@@ -30,7 +30,7 @@ Trabalho com conciliação financeira, análise de dados e automação de proces
   <a href="https://github.com/brendacarmosa-create/agenteIA_Essenza"><img src="card-essenza.svg" width="49%" alt="Assistente Essenza"/></a>
 </p>
 <p align="center">
-  <a href="https://github.com/brendacarmosa-create/projeto_real_PROJECAO_PIRAMIDE_ETARIA_S-O_LUIS_MA"><img src="card-saoluis.svg" width="49%" alt="Projeção da pirâmide etária de São Luís com dados do IBGE e DATASUS"/></a>
+  <a href="https://github.com/brendacarmosa-create/projeto_real_PROJECAO_PIRAMIDE_ETARIA_S-O_LUIS_MA"><img src="card-saoluis-v2.svg" width="49%" alt="Projeção da pirâmide etária de São Luís com dados do IBGE e DATASUS"/></a>
   <a href="https://brendacarmosa-create.github.io"><img src="card-portfolio.svg" width="49%" alt="Portfólio"/></a>
 </p>
 
